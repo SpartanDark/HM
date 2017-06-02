@@ -1,5 +1,5 @@
 <?php
-$enlace = mysql_connect('localhost', 'root', 'W1i2n3d4o5w6s');
+$enlace = mysql_connect('Servidor de base de datos', 'Usuario', 'Contraseña');
 if (!$enlace) {
     die('No se pudo conectar: ' . mysql_error());
 }
